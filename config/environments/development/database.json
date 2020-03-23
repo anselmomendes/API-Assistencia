@@ -1,0 +1,18 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "bookshelf",
+      "settings": {
+        "client": "postgres",
+        "database": "d4n3oijs45dqs8",
+        "host": "ec2-52-23-14-156.compute-1.amazonaws.com",
+        "port": 5432,
+        "username": "drcaiqsmukpbtz",
+        "password": "b9aacb855aa86f265e0ed085f3a99648cd8d121ef290d913f531d07119a8ead9",
+        "ssl": true
+      },
+      "options": {}
+    }
+  }
+}

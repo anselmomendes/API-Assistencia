@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "celulares",
+  "info": {
+    "name": "celulares"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "marca": {
+      "type": "string"
+    },
+    "modelo": {
+      "type": "string"
+    }
+  }
+}

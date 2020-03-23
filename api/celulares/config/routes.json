@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/celulares",
+      "handler": "celulares.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/celulares/count",
+      "handler": "celulares.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/celulares/:id",
+      "handler": "celulares.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/celulares",
+      "handler": "celulares.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/celulares/:id",
+      "handler": "celulares.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/celulares/:id",
+      "handler": "celulares.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

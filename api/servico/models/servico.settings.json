@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "servicos",
+  "info": {
+    "name": "servico"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "valor": {
+      "type": "decimal"
+    },
+    "garantia": {
+      "type": "string"
+    }
+  }
+}
