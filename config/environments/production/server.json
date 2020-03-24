@@ -1,5 +1,5 @@
 {
-  "host": "https://api-celular.herokuapp.com",
+  "host": "api-celular.herokuapp.com",
   "port": "${process.env.PORT || 1337}",
   "production": true,
   "proxy": {
